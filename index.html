@@ -4,10 +4,26 @@
     <meta charset="utf-8" />
     <title>RegEx Form</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="validation.js"></script>
   </head>
   <body>
-    <h1>New User Signup</h1>
-
+    <h1>New User Signup</h1> 
+    <label for="F"> Validator: </label>
+    <form id="F">
+      <label for="userName">UserName: </label><br>
+      <input type="text" id="userName" placeholder="Enter Use Name"><br>
+      <label for="email">email: </label><br>
+      <input type="text" id="email" placeholder="Enter your Email"><br>
+      <label for="password"> Password: </label><br>
+      <input type="text" id="password" placeholder="Enter a Password"> <br>
+      <label for="phoneNumber">PhoneNumber: </label><br>
+      <input type="text" id="phoneNumber" placeholder="Enter your phone Number"><br>
+      <label for="cardNumber">CardNumber: </label><br>
+      <input type="text" id="cardNumber" placeholder="Enter a Valid CardNumber">
+    </form>
     <script type="text/javascript" src="validation.js"></script>
+    
   </body>
 </html>
+

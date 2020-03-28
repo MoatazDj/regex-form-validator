@@ -1,0 +1,12 @@
+input{
+    text-align: center;
+    font-size: 150%;
+    border-radius: 5em;
+    border-color: grey;
+}
+
+#F{
+    margin-top: 5%;
+    margin-left: 25%;
+    border-radius: solid black;
+}
